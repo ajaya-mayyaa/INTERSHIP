@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+<style>
+  @layer utilities {
+    .font-krub {
+      font-family: 'Krub', sans-serif;
+    }
+    .font-rubik {
+      font-family: 'Rubik', sans-serif;
+    }
+  }
+
+
+
+  @media (min-width: 320px) {
+    /* Override Tailwind's sm: classes */
+    .sm\:text-lg {
+      font-size: 1.125rem; /* 18px */
+    }
+  }
+
+
+</style>
+
+  <title>Document</title>
+</head>
+<body>
+<!-- 
+ header  -->
+
+
+ <!-- sm md lg xl -->
+
+ <div class="w-[100vw] top-0 left-0 h-40 bg-[#091242]" >
+  <!-- logo -->
+  <div class="flex items-center justify-center relative xl:top-11 xl:left-22.5 xl:height-4.25
+  lg:top-11 lg:left-22.5 lg:height-4.25 lg:gap-4
+  md:top-11 md:left-22.5 md:height-4.25 
+  sm:top-[11] sm:left-22.5 sm:height-4.25 
+  ">
+    <img class="relative xl:right-40 cursor-pointer   " src="Assets/Logo.png" alt="" sizes="" srcset="">
+
+    <div class="relative xl:left-52 hidden xl:block lg:block"> 
+      <img class=" " src="Assets/Address Bar.png" alt="" srcset=""> </div>
+   </div>
+</div> 
+
+<!-- menu -->
+
+<section class="w-[100vw] ">
+  <nav  class="flex  h-16 relative  bg-[url('Assets/Backgroound.jpg')]  backdrop-brightness-50 drop-shadow-xl backdrop-blur-sm  text-white	font-semibold	 items-center  gap-14">
+    <div class="flex justify-evenly  relative w-96 left-64 gap-9 sm:items-center
+    lg:relative lg:w-auto lg:left-64 lg:gap-9 "> 
+    <a  class="w-8  hover:border-r-white relative gap-3" href="#home">Home</a>
+    <a class="" href="#about">About</a>
+    <a  class="" href="#services">Services</a>
+    </div>
+
+   <div class="flex flex-row-reverse h-16 relative left-1/3 items-center  sm:hidden md:hidden xl:block xl:flex  lg:block lg:flex gap-14"> 
+    <img  src="Assets/Instagram.png" alt="" srcset="">
+    <img src="Assets/Facebook.png" alt="" srcset="">
+    <img src="Assets/Twitter.png" alt="" srcset="">
+    <img src="Assets/Linkdin.png" alt="" srcset="">
+  </div>
+    <button class="relative  md:left-1/4  xl:left-1/3 w-48 text-black bg-white h-16 hidden xl:block  lg:block  ">Request Quote</button>
+  </nav>
+
+  <div class=" w-[100vw] h-[45vw] bg-[url('Assets/Backgroound.jpg')]"> 
+    <h1 class="w-[35vw] h-[5vw] relative right-[-16vw] top-[10vw] text-sm text-center flex items-center	backdrop-blur-sm bg-black/20 p-2 text-white font-normal border-l-[2px] border-[#FFB629] xl:w-[17vw] xl:h-[2vw] lg:w-[24vw] lg:h-[2vw] md:w-[35vw] md:h-[5vw] ">Logistics & Supply Chain Solutions</h1>
+
+
+     <p class="w-[40vw] h-[30vw] relative right-[-16vw] top-[12vw] text-white font-[krub] text-[60px] font-bold leading-[71.1px] text-left 
+     lg:w-[50vw] md:w-[60vw]">
+      Your Gateway to <br> any Destination <br> in the World</p>
+
+    <p class="w-[40vw] h-[20vw] relative right-[-16vw] bottom-[4vw] text-white font-[krub] text-base	md:hidden xl:block lg:hidden lg:text-sm  ">In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu <br> no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim <br>diam interdum nulla, sed laoreet risus lectus. </p>
+
+    <button class="w-[12rem] h-[4rem] relative right-[-16vw] bottom-[18vw] bg-[#FFB629] md:hidden xl:block 2xl:block lg:hidden ">Explore More</button>  
+  </div> 
+</section> 
+
+
+
+<!-- Services -->
+
+ <section  class="bg-[#fff] h-[30vw]">
+
+  <h1 class="w-[6vw] h-[1.75vw] relative right-[-16vw] top-[10vw] text-sm text-center	backdrop-blur-sm bg-black/15 font-bold p-2 text-black font-normal border-l-[2px] border-[#FFB629]  
+  xl:w-[8vw] xl:h-[1.85vw] 
+  lg:w-[10vw] lg:h-[2vw]
+  md:w-[14vw] md:h-[3vw]">What We Do</h1>
+
+  <p class="w-[15vw] h-[1.75vw] relative right-[-16vw] top-[11vw] text-4xl font-bold font-[Rubik] ">Safe & Reliable <br> Cargo Solutions
+  </p>  
+
+
+
+      <!-- Grid Layout -->
+      <div class="grid grid-cols-1  relative left-[45vw] top-[5vw] md:grid-rows-4  md:h-[70vw] md:w-[40vw] xl:grid-cols-2 lg:grid-cols-2 lg:gap-14 xl:gap-4 2xl:gap-14 2xl:h-[35vw] lg:gap-16 h-[10vw] w-[50vw] p-8 bg-white">
+
+
+        <!-- Service 1 -->
+         <div class="flex gap-2 items-start h-[5vw] w-[3vw]"> 
+          <img src="Assets/1.png" alt="Sea Transport Icon" class="">
+          <div class="w-[20vw] h-[5vw] border-l-2">
+            <h3 class="w-[16vw] h-[2vw] font-[Rubik] md:w-[20vw] text-base px-2 ">Sea Transport Services</h3>
+            <p class="w-[18vw] h-[4.5vw] font-[Krub] xl:w-[18vw] lg:w-[20vw] xl:h-[10vw] md:w-[40vw] px-2">Following the quality of our service <br>thus having gained trust of our <br>many clients.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 items-start  h-[5vw] w-[3vw]">
+          <img src="Assets/2.png" alt="Sea Transport Icon" class="">
+          <div class="w-[20vw] h-[5vw] border-l-2">
+            <h3 class="w-[16vw] h-[2vw] font-[Rubik] md:w-[20vw] text-base px-2 ">Warehousing Services</h3>
+            <p class="w-[18vw] h-[4.5vw] xl:w-[18vw] lg:w-[20vw] xl:h-[10vw] md:w-[40vw] font-[Krub] px-2">Following the quality of our service thus having gained trust of our many clients.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 relative left-[-1vw] items-start h-[5vw] w-[3vw] hidden  2xl:block">
+          <img src="Assets/3.svg" alt="Sea Transport Icon" class="">
+          <div class="w-[20vw] h-[5vw] border-l-2">
+            <h3 class="w-[16vw] h-[2vw] font-[Rubik] md:w-[20vw] text-base px-2 ">Air Freight Services</h3>
+            <p class="w-[18vw] h-[4.5vw] xl:w-[18vw] lg:w-[20vw] xl:h-[10vw]  md:w-[40vw] font-[Krub] px-2">following the quality of our service thus having gained trust of our many clients.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 items-start  h-[5vw] w-[3vw] hidden 2xl:block">
+          <img src="Assets/4.png" alt="Sea Transport Icon" class="">
+          <div class="w-[20vw] h-[5vw] border-l-2">
+            <h3 class="w-[16vw] h-[2vw] font-[Rubik] md:w-[20vw]  text-base px-2 ">Local Shipping Services</h3>
+            <p class="w-[18vw] h-[4.5vw] xl:w-[15vw] lg:w-[20vw] 2xl:w-[20vw] xl:h-[10vw] md:w-[40vw] font-[Krub] px-2">Following the quality of our service <br>thus having gained trust of our <br>many clients.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+ 
+  
+</section>
+
+
+
+<!-- about -->
+
+
+<section class=" w-full ">
+  <img class=" absolute w-full" src="Assets/conntainerpicss.png" alt="">
+
+  <div class="relative top-[19vw] left-[15vw] w-[75vw] h-[34vw] bg-white">
+
+   <div class="grid  w-[68vw] h-[29vw] relative left-[2.8vw] top-[5vw] p-4  bg-white ">
+      <h1 class="w-[4vw] h-[1vw] text-center relative right-[0.5vw] w-[18vw] h-[4.5vw] top-[vw] text-sm m-2	backdrop-blur-sm bg-black/15 font-bold p-2 text-black font-normal border-l-[2px] border-[#FFB629]
+      2xl:w-[4vw] 2xl:h-[2vw] 
+      xl:w-[6vw] xl:h-[2vw]
+      lg:w-[8vw] lg:h-[3vw]
+      md:w-[10vw] md:h-[3vw]">Why Us</h1>
+      <h2 class=" w-[30vw] h-[5vw] font-[Rubik] text-sm font-bold 
+      2xl:w-[30vw] 2xl:h-[5vw]
+      xl:w-[25vw] xl:h-[4vw] xl:text-3xl
+      lg:w-[22vw] lg:h-[4.5vw] lg:text-2xl
+      md:w-[19vw] md:h-[4vw] md:text-xl
+      " >We provide full range global logistics solution</h2>
+
+      <p class="w-[30vw] h-[9vw] py-4 font-[Krub] text-base hidden  2xl:block">Leverage agile frameworks to provide a robust synopsis for <br> strategy foster collaborative thinking to further the overall  <br>value proposition. 
+
+        <br> <br>Organically grow the holistic world view of disruptive <br>innovation via workplace diversity and empowerment.</p> 
+
+
+        <div class=" flex flex-col py-12 gap-6 w-[20vw] h-[8.5vw]  
+        2xl:w-[20vw] 2xl:h-[8.5vw]
+        xl:w-[18vw] xl:h-[7vw] 
+        lg:w-[15vw] lg:h-[5vw] 
+        md:w-[12vw] md:h-[4vw] " >
+          <div class="flex items-center gap-4">   
+          <img src="Assets/deliveryicon.png" alt="">
+          <h1 class="font-[Rubik] text-2xl ">Delivery on Time</h1>
+        </div> 
+         <div class="flex items-center gap-4"> 
+          <img src="Assets/cashicon.png" alt="">
+          <h1 class="font-[Rubik] text-2xl ">Optimized Travel Cost</h1>
+        </div>
+        </div>
+   
+        <div class=" relative left-[30vw] bottom-[21vw] w-[35vw] h-[32vw]">
+          <img class="xl:w-[30vw] xl:relative xl:top-[5vw]" src="Assets/planeopic.jpg" alt="" srcset="">
+          <img class="relative right-[8vw]  border-[1vw] border-white bottom-[10vw] hidden 2xl:block xl:block" src="Assets/girlpic.png" alt="" srcset="">
+    
+          <div class="flex items-center justify-center   w-[50vw] h-[15vw]">
+
+            <div class="w-[30vw] h-[9vw]  lg:h-[7vw] lg:w-[26]  md:h-[6vw] md:w-[24] flex items-center justify-center relative right-[30vw] border-t border-r border-b border-black gap-4">
+              <div class="w-[23vw ] h-[4.5vw] flex items-center gap-4 ">
+                <h1 class="font-[Rubik] text-6xl  md:text-2xl">1294</h1>
+                <img src="Assets/Pattern.png" alt="" srcset="">
+                <p class="text-xl  md:text-sm">Delivered Packages</p>
+              </div>
+            </div> 
+ 
+            <div class="w-[30vw] h-[9vw] lg:h-[7vw] lg:w-[26] md:h-[6vw] md:w-[24] flex items-center justify-center relative right-[30vw] border-t  border-b border-black gap-4">
+              <div class="w-[23vw] h-[4.5vw] flex items-center gap-4 ">
+                <h1 class="font-[Rubik] text-6xl  md:text-xl">3594</h1>
+                <img src="Assets/Pattern.png" alt="" srcset="">
+                <p class="text-xl md:text-sm">Delivered Packages</p>
+              </div>
+            </div>
+
+
+            </div>
+        </div>
+
+  </div>
+
+  </div>
+</section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- cards -->
+
+<!-- 
+<div class="w-[100vw] h-[70rem] grid grid-row-2  ">
+  <div class=" h-[10%] ">
+    <h1 class="flex items-center justify-center text-4xl font-[Rubik] font-bold relative top-[15vw]">Transporting Across The World</h1>
+    <div class=" grid grid-cols-5 gap-4 p-4 relative top-[25vw] left-[0.5vw] "> 
+    <img src="Assets/cards1grid5.png" alt="">
+      <img src="Assets/cards2grid5.png" alt="">  
+      <img src="Assets/cards3grid5.png" alt="">
+        <img src="Assets/cards4grid5.png" alt="">
+        <img src="Assets/cards5grid5.png" alt="">
+    </div>
+
+
+
+  </div>
+  <div class="h-[90%] bg-[#FFB629]">
+    <button class="bg-[#091242] h-[3vw] w-[10vw] relative top-[12vw] left-[45%] text-white text-xl" >More Work</button>
+  </div>
+  
+</div>  -->
+
+
+<!-- 
+
+
+<section class="w-[100vw] h-[45vw] ">
+  <h1 class="w-[6vw] h-[1.75vw] relative right-[-16vw] top-[10vw] text-sm 	backdrop-blur-sm bg-black/15 font-bold p-2 text-black font-normal border-l-[2px] border-[#FFB629]  ">What We Do</h1>
+  <div class="flex w-[60vw] justify-between relative right-[-16vw] top-[12vw]">
+    <p class=" text-3xl font-[Krub] font-bold">What Our Customers Say</p>
+    <div class="flex gap-4">
+    <img src="Assets/leftarrow.png" alt="">
+    <img src="Assets/rightarrow.png" alt="">
+    </div>
+  </div>
+
+  <section class="px-4 w-[60vw] h-[30vw] relative right-[-16vw] top-[19vw]">
+   
+    </div>
+   -->
+    <!-- <div class="grid text-center md:grid-cols-2 ">  -->
+      <!--First Testimonial-->
+     <!-- <div class="mb-6 md:mb-0 bg-[#F4F4F4] h-[17vw]">
+        <div class="mb-6 mt-6 flex justify-center items-center">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(22).jpg"
+            class="w-24 rounded-full shadow-lg dark:shadow-black/30 flex items-center justify-center" />
+        </div>
+        <p class="my-4 text-xl text-neutral-500 dark:text-neutral-300">
+          "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
+          elit sed ut perspiciatis unde omnis."
+        </p>
+        <p class="italic">- Anna Morian</p>
+      </div>   -->
+  
+      <!--Second Testimonial-->
+       <!-- <div class="mb-6 md:mb-0 bg-[#091242] h-[17vw]">
+        <div class="mb-6 mt-6 flex justify-center items-center">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(22).jpg"
+            class="w-24 rounded-full shadow-lg dark:shadow-black/30 flex items-center justify-center" />
+        </div>
+        <p class="my-4 text-xl text-neutral-500 dark:text-neutral-300">
+          "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
+          elit sed ut perspiciatis unde omnis."
+        </p>
+        <p class="italic text-white">- Anna Morian</p>
+      </div>
+    </div>
+  </section>
+  
+</section>  -->
+
+
+
+<!-- Testimonials Section -->
+<div class="mt-16 flex flex-col md:flex-row justify-between items-center px-6 md:px-12">
+  <!-- Left Section (Text) -->
+  <div class="text-center md:text-left mb-6 md:mb-0">
+      <p class="w-auto md:w-[5vw] text-sm text-center md:text-left backdrop-blur-sm bg-black/10 px-4 py-1 text-black font-normal border-l-[4px] border-[#FFB629]">
+          Testimonials
+      </p>
+      <h2 class="text-2xl md:text-3xl font-bold mt-2 text-gray-800">
+          What Our Customers Say
+      </h2>
+  </div>
+
+  <!-- Right Section (Buttons) -->
+  <div class="flex space-x-4">
+      <button class="p-2 bg-gray-100 rounded-full shadow-md hover:bg-gray-200 transition">
+        <img src="Assets/_ (1).png" alt="Customer 2" class="w-12 h-12 md:w-14 md:h-14">
+      </button>
+      <button class="p-2 bg-gray-100 rounded-full shadow-md hover:bg-gray-200 transition">
+        <img src="Assets/_.png" alt="Customer 1" class="w-12 h-12 md:w-14 md:h-14">
+      </button>
+  </div>
+</div>
+
+<!-- Testimonials Cards -->
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-12">
+  <!-- Left Card -->
+  <div class="bg-gray-200 p-6 md:p-8 flex flex-col justify-between rounded-lg shadow">
+      <div class="flex items-center mb-4 md:mb-6">
+          <img src="Assets/testiuser.png" alt="Customer 1" class="w-12 h-12 md:w-14 md:h-14 mr-4 rounded-full">
+          <div>
+              <h3 class="font-bold text-gray-800">Kathleen Smith</h3>
+              <p class="text-gray-500 text-sm">Fuel Company</p>
+          </div>
+      </div>
+      <p class="text-gray-600 mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
+          Leverage agile frameworks to provide a robust synopsis for strategy, foster collaborative thinking to
+          further the overall value proposition.
+      </p>
+      <div class="flex items-center justify-between">
+          <div class="text-yellow-500 text-3xl">“</div>
+          <div class="flex text-yellow-500">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          </div>
+      </div>
+  </div>
+
+  <!-- Right Card -->
+  <div class="bg-[#091242] text-white p-6 md:p-8 flex flex-col justify-between rounded-lg shadow">
+      <div class="flex items-center mb-4 md:mb-6">
+          <img src="Assets/testiUser.png" alt="Customer 2" class="w-12 h-12 md:w-14 md:h-14 mr-4 rounded-full">
+          <div>
+              <h3 class="font-bold">John Martin</h3>
+              <p class="text-blue-300 text-sm">Restoration Company</p>
+          </div>
+      </div>
+      <p class="mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
+          Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+      </p>
+      <div class="flex items-center justify-between">
+          <div class="text-yellow-500 text-3xl">“</div>
+          <div class="flex text-yellow-500">
+              <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- aeroplane  -->
+
+
+<!-- 
+ <section class="h-[40vw] w-[100vw] grid grid-cols-2 " >
+
+  <div class="bg-[#1C1F35]">
+    <img class="relative left-[10vw] top-[5vw]" src="Assets/airliftplane.png" alt="">
+  </div>
+  <div class=" bg-[#F4F4F4] ">
+    
+    <h1 class="w-[5vw] h-[1.25vw] flex items-center justify-center relative left-[10vw] top-[5vw] text-xs  m-2 backdrop-blur-sm bg-black/5 font-bold p-2 text-black font-normal border-l-[2px] border-[#FFB629]  ">Why Choose</h1>
+
+    <h1 class="relative left-[10vw] top-[5.5vw] font-rubik text-4xl">We create opportunity to <br> reach potential</h1>
+    <p  class="relative left-[10vw] top-[6vw] font-krub text-sm text-[#666C89]">Leverage agile frameworks to provide a robust synopsis for <br>strategy foster collaborative thinking to further the overall value <br> proposition. </p> --> --> -->
+  
+    <!-- multiple grids 8 -->
+ <!-- <div class="grid grid-cols-2 h-[15vw] w-[30vw] relative top-[10vw] left-[10vw]  ">
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+    <div class="w-[13vw] h-[5vw] flex items-center gap-4">
+      <img src="Assets/planeIcon.png" alt="">
+      <p class="font-rubik text-xl">Safe Package</p>
+    </div>
+
+  </div>
+  
+  </div>
+
+
+
+</section>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- team -->
+<!-- 
+<div class=" py-4 h-[10vw] flex flex-col items-center justify-center gap-4">
+  <h1 class="w-[7vw] h-[1.5vw] flex items-center justify-center  text-sm  m-2 backdrop-blur-sm bg-black/5 font-bold p-2 text-black font-normal border-l-[2px] border-[#FFB629]  ">The Transporters</h1>
+  <h1 class="font-rubik text-6xl">Meet Expert Team</h1>
+</div>
+
+<div class="h-[30vw] w-[60vw] grid grid-cols-3 relative left-[20vw]	">
+  <img src="Assets/transporter31.png" alt="">
+  <img src="Assets/transporter32.png" alt="">
+  <img src="Assets/transporter3.png" alt="">
+</div>
+
+
+<div class="bg-[#091242] h-[60vw]">
+
+  <div class="w-[40vw]">
+  <h1 class="relative left-[10vw] top-[5vw] w-[5vw] h-[1.5vw] flex items-center justify-center  text-sm  m-2 backdrop-blur-sm bg-white/5 font-bold p-2 text-white font-normal border-l-[2px] border-[#FFB629]  ">Contact</h1>
+  <h1 class="relative left-[10vw] top-[5.5vw] text-white font-bold font-rubik text-4xl">Get in touch with us</h1>
+    <p  class="relative left-[10vw] top-[6vw] text-white font-krub text-xl text-[#666C89]">Leverage agile frameworks to provide a robust <br> synopsis for strategy foster collaborative <br> thinking to further the overall value <br> proposition. </p>
+  
+    <img class="relative left-[10vw] top-[9vw]" src="Assets/savu.png" alt="">
+  </div>
+
+
+  <div class="grid grid-cols-2 w-[45vw] h-[10vw] relative left-[40vw] bottom-[15vw] font-krub bg-[#091242] text-white">
+    <input class="w-[20vw] h-[3vw] bg-[#091242] border border-[#4E5683]" type="text"  id="name" placeholder=" your name">
+    <input class="w-[20vw] h-[3vw] bg-[#091242] border border-[#4E5683]" type="email"  id="email" placeholder=" Email">
+    <input class="w-[20vw] h-[3vw] bg-[#091242] border border-[#4E5683]" type="tel" id="phone" placeholder="Phone">
+    <input class="w-[20vw] h-[3vw] bg-[#091242] border border-[#4E5683] " type="text"  id="city" placeholder="city">
+    
+  </div>
+
+  <div class=" w-[42vw] h-[12vw] relative left-[40vw] bottom-[15vw] font-krub bg-[#091242] text-white "gap>
+    <input class="w-[100%] h-[80%] bg-[#091242] border border-[#4E5683] gap-4 " type="text" name="" id="" placeholder="your Message">
+    <button class="bg-[#FFB629] h-[3vw] w-[8vw]font-krub text-black py-2"> Submit Message</button>
+  </div>
+
+
+  <div class="flex justify-center items-center">
+
+    <img class="" src="Assets/uddalogos.png" alt="">
+  </div>
+</div> 
+ -->
+
+
+
+
+
+
+
+
+</body>
+</html>
